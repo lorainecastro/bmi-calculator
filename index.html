@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --primary-color: #3B82F6;        /* Blue-500 */
+            --primary-color: #3B82F6;
             --primary-gradient: linear-gradient(135deg, #2563EB, #3B82F6);
-            --primary-hover: #2563EB;
             --text-color: #f3f4f6;
             --text-light: #9ca3af;
             --bg-color: #101010;
@@ -102,7 +101,6 @@
             background: var(--primary-gradient);
             opacity: 0.6;
             animation: pulse 2s infinite;
-            z-index: -1;
         }
         .brand-icon i { font-size: 32px; color: white; }
 
@@ -166,11 +164,12 @@
         }
         .bmi-status {
             margin-top: 12px;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 600;
             padding: 10px 20px;
             border-radius: 50px;
             display: inline-block;
+            min-width: 160px; /* Ensures consistent width */
         }
 
         /* BMI Guide Table */
@@ -198,7 +197,10 @@
             padding: 6px 16px;
             border-radius: 50px;
             font-weight: 600;
-            font-size: 14px;
+            font-size: 16px;
+            display: inline-block;
+            min-width: 150px;     /* Same width for all badges */
+            text-align: center;
         }
         .pending    { background: #fef3c7; color: #92400e; }
         .approved   { background: #d1fae5; color: #065f46; }
@@ -207,7 +209,6 @@
         .rejected   { background: #fecaca; color: #991b1b; }
         .overdue    { background: #fca5a5; color: #7f1d1d; }
 
-        /* Notification Toast */
         .notification {
             position: fixed;
             top: 20px;
@@ -226,7 +227,10 @@
         .success { background: linear-gradient(135deg, #10b981, #059669); }
         .error   { background: linear-gradient(135deg, #ef4444, #dc2626); }
 
-        @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
         @keyframes pulse {
             0% { transform: scale(1); opacity: 0.6; }
             70% { transform: scale(1.3); opacity: 0; }
@@ -241,6 +245,7 @@
             .card, .bmi-guide { padding: 30px 20px; border-radius: 20px; }
             h1 { font-size: 28px; }
             .bmi-value { font-size: 44px; }
+            .status-badge { min-width: 110px; font-size: 13px; }
         }
     </style>
 </head>
@@ -334,7 +339,7 @@
         weightInput.addEventListener('input', calculateBMI);
         heightInput.addEventListener('input', calculateBMI);
 
-        // Mouse parallax for background circles (same as Currency Converter)
+        // Parallax effect for background circles
         document.addEventListener('mousemove', e => {
             const x = e.clientX / window.innerWidth;
             const y = e.clientY / window.innerHeight;
