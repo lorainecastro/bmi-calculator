@@ -1,6 +1,6 @@
 # BMI Calculator
 
-A modern, responsive BMI Calculator built with pure HTML, CSS, and JavaScript. Calculates your Body Mass Index in real time as you type, instantly displaying your BMI value and health classification based on official WHO standards.
+A modern, responsive BMI Calculator built with pure HTML, CSS, and JavaScript. Calculates your Body Mass Index in real time as you type, instantly displaying your BMI value and health classification.
 
 [**Try the Live Demo**](https://lorainecastro.github.io/bmi-calculator/)
 
@@ -9,7 +9,7 @@ A modern, responsive BMI Calculator built with pure HTML, CSS, and JavaScript. C
 ## BMI Formula
 BMI = weight (kg) / (height (m) × height (m))
 
-## BMI Classification (WHO Standards)
+## BMI Classification
 | BMI Range       | Classification    |
 |-----------------|-------------------|
 | Below 18.5      | Underweight       |
