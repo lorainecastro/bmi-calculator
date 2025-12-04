@@ -12,13 +12,13 @@ BMI = weight (kg) / (height (m) × height (m))
 
 ## BMI Classification (WHO Standards)
 
-| BMI Range           | Classification      |
-|---------------------|---------------------|
-| Below 18.5          | Underweight         |
-| 18.5 – 24.9         | Normal weight       |
-| 25.0 – 29.9         | Overweight          |
-| 30.0 – 34.9         | Obese Class I       |
-| 35.0 – 39.9         | Obese Class II      |
-| 40.0 and above      | Obese Class III     |
+| BMI Range       | Classification    |
+|-----------------|-------------------|
+| Below 18.5      | Underweight       |
+| 18.5 – 24.9     | Normal weight     |
+| 25.0 – 29.9     | Overweight        |
+| 30.0 – 34.9     | Obese Class I     |
+| 35.0 – 39.9     | Obese Class II    |
+| 40.0 and above  | Obese Class III   |
 
 
