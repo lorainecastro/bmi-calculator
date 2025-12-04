@@ -10,6 +10,7 @@ A modern, responsive BMI Calculator built with pure HTML, CSS, and JavaScript. C
 
 BMI = weight (kg) / (height (m) × height (m))
 
+
 ## BMI Classification (WHO Standards)
 
 | BMI Range       | Classification    |
@@ -22,3 +23,8 @@ BMI = weight (kg) / (height (m) × height (m))
 | 40.0 and above  | Obese Class III   |
 
 
+## Sources
+
+- [**https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight**](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight)
+- [**https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html**](https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html)
+- [**https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-weight**](https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-weight)
