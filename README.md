@@ -1,11 +1,10 @@
 # BMI Calculator
 
 A modern, responsive BMI Calculator built with pure HTML, CSS, and JavaScript. Calculates your Body Mass Index in real time as you type, instantly displaying your BMI value and health classification based on official WHO standards.
+[**Try the Live Demo**](https://lorainecastro.github.io/bmi-calculator/)
+
 
 ![BMI Calculator Banner](image.png)
-
-## Live Demo
-[**Try the Live Demo**](https://lorainecastro.github.io/bmi-calculator/)
 
 ## BMI Formula
 
