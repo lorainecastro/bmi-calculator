@@ -110,7 +110,10 @@ body {
     animation: pulse 2s infinite;
 }
 
-.brand-icon i { font-size: 32px; color: white; }
+.brand-icon i {
+    font-size: 32px;
+    color: white;
+}
 
 h1 {
     font-size: 32px;
@@ -120,7 +123,12 @@ h1 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-p.subtitle { color: var(--text-light); margin-top: 8px; font-size: 16px; }
+
+p.subtitle { 
+    color: var(--text-light); 
+    margin-top: 8px; 
+    font-size: 16px; 
+}
 
 label {
     font-weight: 500;
@@ -129,7 +137,11 @@ label {
     align-items: center;
     margin-bottom: 12px;
 }
-label i { margin-right: 10px; color: var(--primary-color); }
+
+label i { 
+    margin-right: 10px; 
+    color: var(--primary-color); 
+}
 
 input {
     width: 100%;
@@ -143,6 +155,7 @@ input {
     box-shadow: 0 0 3px black;
     transition: var(--transition);
 }
+
 input:focus {
     outline: none;
     border-color: var(--primary-color);
@@ -162,6 +175,7 @@ input:focus {
     justify-content: center;
     box-shadow: 0 0 3px black;
 }
+
 .bmi-value {
     font-size: 48px;
     font-weight: 700;
@@ -170,6 +184,7 @@ input:focus {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .bmi-classification {
     margin-top: 12px;
     font-size: 16px;
@@ -187,19 +202,23 @@ input:focus {
     margin-bottom: 0 0 24px 0;
     color: var(--primary-color);
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
 }
+
 th, td {
     padding: 14px 16px;
     text-align: left;
     border-bottom: 1px solid var(--border-color);
 }
+
 th {
     color: var(--text-light);
     font-weight: 500;
 }
+
 .classification-badge {
     padding: 8px 16px;
     border-radius: 50px;
@@ -209,6 +228,7 @@ th {
     min-width: 150px;
     text-align: center;
 }
+
 .underweight    { background: #fef3c7; color: #92400e; }
 .normal   { background: #d1fae5; color: #065f46; }
 .overweight      { background: #bfdbfe; color: #1e40af; }
