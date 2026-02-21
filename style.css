@@ -259,7 +259,17 @@ th {
         padding: 30px 20px;
         border-radius: 20px;
     }
-    h1 { font-size: 28px; }
-    .bmi-value { font-size: 44px; }
-    .classification-badge { min-width: 110px; font-size: 14px; }
+
+    h1 {
+        font-size: 28px; 
+    }
+
+    .bmi-value {
+        font-size: 44px; 
+    }
+
+    .classification-badge {
+        min-width: 110px;
+        font-size: 14px; 
+    }
 }
