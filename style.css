@@ -233,7 +233,9 @@ th {
     background: linear-gradient(135deg, #10b981, #059669); 
 }
 
-.error   { background: linear-gradient(135deg, #ef4444, #dc2626); }
+.error {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+}
 
 @keyframes float {
     0%, 100% { transform: translateY(0); }
